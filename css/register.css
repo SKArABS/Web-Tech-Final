@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#register-box {
+    width: 300px; 
+    height: 400px; 
+    border: 1px solid #ccc;
+    padding: 20px;
+    overflow-y: auto; 
+}
+
+#register-box label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#register-box input[type="text"],
+#register-box input[type="date"],
+#register-box input[type="tel"],
+#register-box input[type="email"],
+#register-box input[type="password"],
+#register-box select {
+    width: calc(100% - 24px); 
+    padding: 8px; 
+    margin-bottom: 10px; 
+    box-sizing: border-box; 
+}
+
+#register-box input[type="radio"] {
+    display: inline-block;
+    margin-right: 5px; 
+}
+
+#register-box label[for="male"],
+#register-box label[for="female"] {
+    display: inline-block; 
+    margin-right: 15px; 
+}
+
+#register-btn {
+    width: 100%; 
+    padding: 8px; 
+    margin-bottom: 10px; 
+    box-sizing: border-box;
+    font-size: medium;
+    box-sizing: border-box;
+    background-color: skyblue;
+    cursor: pointer;
+}
+
+#register-btn:hover {
+    background-color: darkblue;
+    color: aliceblue; 
+}
+
+#register-box a {
+    color: blue; 
+    text-decoration: none;
+}
+
+#register-box a:hover {
+    color: goldenrod; 
+}

@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#login-box {
+    width: 300px; 
+    border: 1px solid #ccc;
+    padding: 20px;
+    font-size: large;
+}
+
+
+#login-box label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+#email, #password{
+    width: 100%; 
+    padding: 8px; 
+    margin-bottom: 10px; 
+    box-sizing: border-box;
+}
+
+#sign-in-btn{
+    width: 100%; 
+    padding: 8px; 
+    margin-bottom: 10px; 
+    box-sizing: border-box;
+    font-size: medium;
+    box-sizing: border-box;
+    background-color: skyblue;
+    cursor: pointer;
+}
+
+#sign-in-btn:hover {
+    background-color: darkblue;
+    color: aliceblue;
+}
+
+#login-box a {
+    color: blue; 
+    text-decoration: none; 
+}
+
+#login-box a:hover {
+    color: goldenrod; 
+}
